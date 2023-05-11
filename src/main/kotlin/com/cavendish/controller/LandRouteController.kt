@@ -4,11 +4,11 @@ import com.cavendish.dto.RouteDTO
 import com.cavendish.service.LandRouteService
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.tags.Tag
+import javax.validation.constraints.Size
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RestController
-import javax.validation.constraints.Size
 
 @Tag(name = "Route", description = "Controller for searching land routes")
 @RestController
